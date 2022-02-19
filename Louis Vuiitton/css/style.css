@@ -1,0 +1,603 @@
+.full{
+    width: 100%;
+    float: left;
+}
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+.menu{
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.search{
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 30px;
+    line-height: 40px;
+    margin-right: 20%;
+    padding: 0px 10px;
+    margin-top: 30px;
+    height: 40px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-right: 20%;
+    margin-top: 20px;
+   
+   text-align: center;
+}
+.logo img{
+    width: 50%;
+}
+.icon{
+    float: right;
+    width: 15%;
+    line-height: 5px;
+    margin-top: 30px;
+    text-align: end;
+    letter-spacing: 10px;
+    
+    
+  
+}
+.menuchinh{
+    text-align: center;
+    word-spacing: 20px;
+    clear: both;
+   font-family: 'Times New Roman', Times, serif;
+}
+.menuchinh a{
+    color: black;
+    text-decoration: none;
+}
+.menuchinh a:hover{
+    color: black;
+    font-weight: bolder;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+    display: inline;
+    position: relative;
+}
+ul li ul{
+    position: absolute;
+    background-color: #dcdcdc;
+    padding: 10px;
+    margin-left: 280px;
+    display: none;
+}
+ul li:hover ul{
+  font-weight: bold;
+}
+ul li ul li{
+    display: block;
+    text-align: start;
+    
+}
+hr{
+    width: 90%;
+   
+
+}
+.bgbanner{
+
+    min-height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.bgbanner img{
+    width: 100%;
+}
+.winter{
+    line-height: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.order{
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+.order a{
+    color: white;
+    text-decoration: none;
+    
+}
+.order a:hover{
+    color: yellow;
+}
+.selection{
+    width: 100%;
+    background-color: #dcdcdc;
+    min-height: 940px;
+    margin-top: 60px;
+   
+}
+.dausl{
+    width: 10%;
+    text-align: center;
+    line-height: 2px;
+}
+.SLS{
+    text-align: center;
+    width: 20%;
+    margin-top: 5px;
+}
+.SLS>h1{
+    font-size: 32pt;
+}
+.col-4{
+    width: 32%;
+    float: left;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.col-4 img{
+    width: 100%;
+    margin-bottom: 30px;
+  
+}
+.col-4>i{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+  
+}
+.col-4>a{
+    color: black;
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.col-4>h4{
+    text-align: center;
+    width: 80%;
+}
+.mr{
+    margin-right: 2%;
+}
+.gia{
+    width: 10%;
+   
+    margin-left: 160px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.order1{
+    width: 40%;
+    background-color: black;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;;
+   word-spacing: 5px;
+   margin-top: 30px;
+   margin-left: 30%;
+}
+.order1>a{
+    color: white;
+    text-decoration: none;
+}
+.order1>a:hover{
+    color: yellow;
+}
+.boxcenter>img{
+    width: 100%;
+}
+.text1{
+    text-align: center;
+   clear: both;
+   line-height: 10px;
+    width: 60%;
+    margin-top: 80px;
+}
+.text1>h1{
+    font-size: 38pt;
+}
+
+
+.textmen{
+    text-align: center;
+    margin-top: 80px;
+   line-height: 10px;
+   
+}
+.textmen>h1{
+    font-size: 38pt;
+    
+}
+.bgmen{
+    min-height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.bgmen img{
+    width: 100%;
+}
+.mena{
+    width: 50%;
+    float: left;
+    line-height: 10px;
+}
+.mena a{
+    color: black;
+    text-decoration: none;
+}
+.mena a h1{
+    font-weight: inherit;
+    font-size: 26pt;
+  
+}
+.mena>h4{
+    margin-top: 10px;
+    line-height: 20px;
+}
+.col-51{
+    width: 48%;
+    float: right;
+   margin-top: 10px;
+   min-height: 300px;
+   margin-bottom: 20px;
+    
+
+}
+.col-51 img{
+    width: 100%;
+    height: 300px;
+}
+.col-51>a{
+    color: black;
+    text-decoration: none;
+ line-height: 5px;
+    
+
+}
+.col-51>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;}
+.col-21{
+    width: 24%;
+    float: left;
+   margin-top: 10px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    
+}
+.col-21 img{
+    width: 100%;
+    height: 300px;
+}
+.col-21>a{
+    color: black;
+    text-decoration: none;
+ line-height: 5px;
+    
+
+}
+.col-21>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;}
+.col-5{
+    width: 48%;
+    float: left;
+   margin-top: 10px;
+    min-height: 300px;
+    clear: both;
+    margin-bottom: 20px;
+}
+.col-5 img{
+    width: 100%;
+    height: 300px;
+}
+.col-5>a{
+    color: black;
+    text-decoration: none;
+    line-height: 5px;
+}
+.col-5>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;
+}
+.col-2{
+    width: 24%;
+    float: left;
+   margin-top: 10px;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.col-2 img{
+    width: 100%;
+    height: 300px;
+}
+.col-2>a{
+    color: black;
+    text-decoration: none;
+    line-height: 5px;
+}
+.col-2>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;
+}
+
+.textbaby{
+  text-align: center;
+    margin-top: 80px;
+    line-height: 10px;
+}
+.textbaby>h1{
+    font-size: 38pt;
+}
+
+.ship{
+    width: 100%;
+    float: left;
+    background-color: black;
+    height: 370px;
+    margin-top: 80px;
+    padding: 40px 0px;
+}
+.ship>h1{
+    color: white;
+    font-size: 28pt;
+    font-weight: inherit;
+    text-align: center;
+ 
+}
+.shiptext1{
+    width: 10%;
+  
+    float: left;
+    text-align: center;
+    margin-left: 550px;
+}
+.shiptext1>h1{
+    font-size: 16pt;
+    color: white;
+    font-weight: inherit;
+    
+}
+.shiptext1>h4{
+    color: white;
+}
+.shiptext2{
+    width: 15%;
+  
+    text-align: center;
+    margin-right: 540px;
+    float: right;
+   margin-bottom: 200px;
+}
+.shiptext2>h1{
+    font-size: 16pt;
+    color: white;
+    font-weight: inherit;
+    
+}
+.shiptext2>h4{
+    color: white;
+}
+.col-3{
+    width: 23.5%;
+    margin-top: 10px;
+    float: left;
+    min-height: 300px;
+    margin-bottom: 20px;
+    
+}
+.col-3{
+    width: 23.5%;
+    margin-top: 10px;
+    float: left;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.col-3 img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.col-3>a{
+    color: black;
+    text-decoration: none;
+    line-height: 5px;
+ 
+    
+
+}
+.col-3>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;
+  
+}
+.col-3>a{
+    color: black;
+    text-decoration: none;
+    line-height: 5px;
+ 
+    
+
+}
+.col-3>a>h1{
+    font-weight: inherit;
+    font-size: 22pt;
+  
+}
+.footer{
+   
+   margin: 0 10%;
+   min-height: 300px;
+  float: left;
+   width: 80%;
+  
+}
+.ftleft{
+    width: 32%;
+    float: left;
+    min-height: 250px;
+    
+   
+    text-align: center;
+}
+
+input[type="email"]{
+    width: 70%;
+    color: grey;
+    font-size: 12pt;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px black solid;
+    
+   
+}
+.ftmid{
+    width: 32%;
+    float: left;
+    min-height: 250px;
+   font-size: 13pt;
+    text-align: center;
+    padding: 50px 0;
+    line-height: 35px;
+}
+.ftmid a{
+    color: black;
+}
+.ftmid a:hover{
+    font-weight: bold;
+}
+.ftright{
+    width: 32%;
+    float: left;
+    min-height: 250px;
+   
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+.boxftright{
+    width: 70%;
+    color: grey;
+    font-size: 12pt;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px black solid;
+    margin-left: 23px;
+   
+    
+}
+.iconft{
+    float: left;
+    margin-left: 32px ;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.col-2sp{
+    width: 49%;
+    float: left;
+    min-height: 300px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   line-height: 60px;
+}
+.col-2sp img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.left{
+    width: 60%;
+    float: left;
+   margin-top: 30px;
+    min-height: 500%;
+}
+.left img{
+    width: 100%;
+    height: 500px;
+}
+
+.right{
+    width: 38%;
+    float: right;
+    margin-top: 30px;
+    min-height: 1700px;
+   
+  
+   
+}
+.right::before{
+    content: '';
+    width: 38%;
+    float: right;
+    top: 0;
+    left: 0;
+}
+.right>h1{
+    font-weight: inherit;
+    font-size: 30pt;
+}
+input[type="submit"]{
+    width: 80%;
+    padding: 15px;
+    font-size: 12pt;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: inherit;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+.right>img{
+    width: 40%;
+    padding-left: 20px;
+}
+.des{
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.des>h1{
+    font-weight: bolder;
+}
+.sug{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sug>h1{
+    font-weight: bold;
+}
